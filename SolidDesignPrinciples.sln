@@ -18,9 +18,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibility.Tests", "SRP\After\SingleResponsibility.Tests\SingleResponsibility.Tests.csproj", "{ED121C0C-3078-4919-86AE-0F7D7D184176}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OCP", "OCP", "{33D0C09B-2C60-4FE2-8B2C-F10CCF717F99}"
-	ProjectSection(SolutionItems) = preProject
-		OCP\README.md = OCP\README.md
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Before", "Before", "{AC61B43D-A944-4DED-BD0C-E0941CA0EB7B}"
 EndProject
