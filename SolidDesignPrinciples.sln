@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SRP", "SRP", "{C5B13ECD-9D5B-4BE4-9070-67D1C58D3DA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Before", "Before", "{85235938-2C25-4024-A535-87507F3A7DD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "After", "After", "{BBA57729-EBEF-447A-AB26-1B3E02252F83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibility", "SRP\Before\SingleResponsibility\SingleResponsibility.csproj", "{19B3C005-B5DC-42D8-BB26-8F727338D199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibility.Tests", "SRP\Before\SingleResponsibility.Tests\SingleResponsibility.Tests.csproj", "{1BD144E9-BBCD-4385-BC8D-416DC9C2A865}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19B3C005-B5DC-42D8-BB26-8F727338D199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B3C005-B5DC-42D8-BB26-8F727338D199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B3C005-B5DC-42D8-BB26-8F727338D199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B3C005-B5DC-42D8-BB26-8F727338D199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD144E9-BBCD-4385-BC8D-416DC9C2A865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD144E9-BBCD-4385-BC8D-416DC9C2A865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD144E9-BBCD-4385-BC8D-416DC9C2A865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD144E9-BBCD-4385-BC8D-416DC9C2A865}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{85235938-2C25-4024-A535-87507F3A7DD3} = {C5B13ECD-9D5B-4BE4-9070-67D1C58D3DA2}
+		{BBA57729-EBEF-447A-AB26-1B3E02252F83} = {C5B13ECD-9D5B-4BE4-9070-67D1C58D3DA2}
+		{19B3C005-B5DC-42D8-BB26-8F727338D199} = {85235938-2C25-4024-A535-87507F3A7DD3}
+		{1BD144E9-BBCD-4385-BC8D-416DC9C2A865} = {85235938-2C25-4024-A535-87507F3A7DD3}
+	EndGlobalSection
+EndGlobal
