@@ -1,7 +1,7 @@
 # Single Responsibility Principle (SRP)
 A module (class, method/function) should have one reason to change.
 
-#Examples of Responsibility
+# Examples of Responsibility
 
 - Datastore Operations
   - Persistence, the action of saving data to a datastore (database, json, xml etc.)
