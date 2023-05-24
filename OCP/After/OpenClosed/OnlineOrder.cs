@@ -1,12 +1,19 @@
 ﻿namespace OpenClosed;
 
-public class OnlineOrder : Order
+public class OnlineOrder : IOrder
 {
-    public override void Checkout()
+    public int Id { get; set; }
+    public string CustomerName { get; set; }
+    public decimal SubTotalAmount { get; set; }
+    public decimal TotalAmount { get; set; }
+
+    public decimal Discount { get; set; } = 1.00m;
+
+    public void Checkout()
     {
         decimal promotionDiscount = 0.20m;
         
-        TotalAmount = SubTotalAmount - (SubTotalAmount * promotionDiscount);
+        TotalAmount = SubTotalAmount - (SubTotalAmount * Discount);
         
         Console.WriteLine($"Order {Id} for {CustomerName} has been checked out.");
         Console.WriteLine($"Subtotal: {SubTotalAmount:C}");
