@@ -1,6 +1,6 @@
 ﻿using OpenClosed;
 
-Order storeOrder = new StoreOrder()
+IOrder storeOrder = new StoreOrder()
 {
     Id = 1, 
     CustomerName = "John Doe", 
@@ -9,11 +9,12 @@ Order storeOrder = new StoreOrder()
 
 storeOrder.Checkout();
 
-Order onlineOrder = new OnlineOrder()
+IOrder onlineOrder = new OnlineOrder()
 {
     Id = 2,
     CustomerName = "Jane Doe",
-    SubTotalAmount = 100
+    SubTotalAmount = 100,
+    Discount = 0.20m
 };
 
 onlineOrder.Checkout();
