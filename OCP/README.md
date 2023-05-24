@@ -1,0 +1,2 @@
+﻿# Open-Closed Principle
+This principle is based on the concept that a module should be open for extension but closed for modification. This means that a class should be easily extendable without modifying the class itself. This is achieved through the use of abstract classes and interfaces.
